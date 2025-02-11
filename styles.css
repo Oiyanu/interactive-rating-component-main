@@ -35,7 +35,12 @@ body{
     color: hsl(217, 12%, 63%);
     cursor: pointer;
 }
+.list li.active{
+    background-color: rgb(230, 106, 23);
+    color: hsl(216, 12%, 8%);;
+}
 .list li:hover{
+    text-decoration: none;
     background-color: aliceblue;
     color: hsl(216, 12%, 8%);
 }
