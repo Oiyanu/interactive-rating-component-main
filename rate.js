@@ -17,6 +17,8 @@ lists.forEach(list => {
 
 butt.addEventListener('click', () => {
 
+    butt.classList.add('active');
+
     if(rating){
         localStorage.setItem('rating', rating);
         window.location.href = "display.html";
